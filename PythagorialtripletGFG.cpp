@@ -12,8 +12,8 @@ public:
     // Pythagorean triplet exists or not
     bool checkTriplet(int arr[], int n)
     {
-        // code here
-        // METHOD 1:
+        
+        // METHOD 1........................................................
 
         //  unordered_map<int,int> mp;
 
@@ -43,7 +43,7 @@ public:
         //     return false;
         // This code exceeds time limit....
 
-        // METHOD 2:
+        // METHOD 2...........................................................
         //  set<int> s;
         // for(int i=0;i<n;i++){
         //     arr[i]=(arr[i])*(arr[i]);
@@ -59,9 +59,10 @@ public:
         // }
         // return false;
 
-        // METHOD 3:
+        
+        // METHOD 3................................................................
 
-        // Efficient solution....
+        // Efficient solution:
 
         int maximum = 0;
 

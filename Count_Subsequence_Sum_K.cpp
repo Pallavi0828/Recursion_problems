@@ -1,5 +1,5 @@
 
-// Count the subsequences with sum K
+// Count the subsequences with the sum K
 
 #include <iostream>
 #include <vector>

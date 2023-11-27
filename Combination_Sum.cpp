@@ -1,7 +1,10 @@
 /*
-Cobination Sum 
-problem statement- Given an array of distinct integers 'canditates' and target integer 'target' return a list of all unique combinations of candidates where the choosen numbers sum to target. You may return in any order.
-** same number may be choosen from candidates an unlimited of times.
+Combination Sum 
+problem statement- Given an array of distinct integers 'candidates' and target integer 'target' return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return in any order.
+** The same number may be chosen from candidates an unlimited of times.
+
+Input: candidates=[2,3,6,7], target=7
+output: [[2,2,3],[7]]
 */
 
 

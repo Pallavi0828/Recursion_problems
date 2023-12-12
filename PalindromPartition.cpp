@@ -5,7 +5,8 @@ Given a string s, partition s, such that every substring of the partition is a p
 example: Input: s= "aa"
 output: [["a","a","b"],["aa","b"]]
 
-
+Time Complexity: O( (2^n) *k*(n/2) )
+Space Complexity: O(k * x)
 */
 
 #include <bits/stdc++.h>
